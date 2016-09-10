@@ -4,7 +4,7 @@
 'use strict';
 class Shell {
     constructor(router, repl) {
-        this.router = router;
+        this.router =router;
         this.repl = repl;
     }
     start() {

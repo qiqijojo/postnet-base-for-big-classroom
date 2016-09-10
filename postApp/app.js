@@ -16,3 +16,5 @@ let actions = [
 const router = new Router(actions);
 const shell = new Shell(router, repl);
 shell.start();
+
+const haha = require('superagent');
